@@ -10,7 +10,7 @@ module FunWithStrings
     w
   end
   def anagram_groups
-    #YOUR CODE HERE
+    p = self.downcase.split.group_by{ |x| x.chars.sort }.values
   end
 end
 

@@ -6,7 +6,7 @@ class Dessert
    self.calories = calories
   end
   def healthy?
-  #your code here
+  self.calories <= 200
   end
   def delicious?
     #your code here
